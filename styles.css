@@ -41,3 +41,33 @@ header {
     font-size: 14px;
     font-weight: 300; /*peso da fonte*/
 }
+.dsmeta-card {
+    background-color: #283142;
+    border-radius: 10px; /*botar a borda do quadro de vendas redondas*/
+    padding: 30px 10px;
+}
+.dsmeta-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto; /*macete para alinhar o div ao centro*/
+}
+
+#sales {
+    padding: 40px 10px; /*primeira linha vai ser na vertical e na segunda a horizontal*/
+}
+.dsmeta-sales-title {
+    color: #676FFF;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.dsmeta-from-control {
+    width: 100%; /*largura dos inputs*/
+    height: 46px; /*tamanho dos inputs*/
+    background-color: #1B2531; /*cor dos inputs*/
+    border: 1px solid #384459; /*cor das laterais dos inputs*/
+    border-radius: 5px; /*arredondamento das bordas dos inputs*/
+    color: #9AAABE; /*cor dos caracteres inseridos no input*/
+    padding: 0 20px; /*espaçamento dos caracteres inseridos no input com o quadrado do input*/
+    font-size: 18px; /*tamanho dos caracteres inseridos dentro do input*/
+    
+}
