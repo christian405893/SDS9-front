@@ -138,6 +138,19 @@ header {
     .show576 {  
         display: table-cell; /*table-cell é o display normal de um elemento de uma tabela*/
     }
+
+    .dsmeta-card { 
+        padding: 35px;
+    /*qnd tiver em 576px ou + vai mudar o padding para 35px*/
+    }
+    .dsmeta-sales-table tbody tr {
+        height: 55px;
+    /*qnd tiver em 576px ou + vai mudar a altura(height) dos caracteres=letras para 55px*/
+    }
+    .dsmeta-sales-table tbody {
+        font-size: 18px;
+    /*qnd tiver em 576px ou + vai mudar o tamanho da fonte de toda a tabela para 18px*/
+    }
 }
 @media (min-width: 992px) { /*se a largura for no minimo de 992px ou mais ele mostra os conteudos q a classe ta que no caso é o id, visitas, vendas*/
     .show992 {
